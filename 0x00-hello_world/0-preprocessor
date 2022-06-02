@@ -1,0 +1,7 @@
+#!/bin/bash
+#include <stdio.h>
+int main(void)
+{
+  $CFILE=c;
+return (0);
+}
