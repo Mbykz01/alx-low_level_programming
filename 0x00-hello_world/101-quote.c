@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  *
- * program should return 1
+ *Description: Prints "and that piece of art is useful.." without puts
+ * program should return: 1
  */
 int main(void)
 {
