@@ -2,7 +2,6 @@
 
 /**
  * main - Entry point
- *
  *Description: Prints "and that piece of art is useful.." without puts
  * program should return: 1
  */
