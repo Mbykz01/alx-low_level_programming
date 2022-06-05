@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * positive_or_negative 
- *
- * Description: Positive anything is better than negative nothing
+ * main - entry point
+ * description: Positive anything is better than negative nothing
+ * return: 0
  */
 int main(void)
 
