@@ -4,7 +4,7 @@
 
 /**
  * main - entry point
- * description: Positive anything is better than negative nothing
+ * description:prints if a number is positive or negative.
  * return: 0
  */
 int main(void)
