@@ -9,15 +9,14 @@
 int main(void)
 {
 
-int n = 48;
-while (n <= 57)
+int k;
+
+for (k = 48; k <= 57; k++)
 
 {
-putchar(n);
-n += 1;
+putchar(k);
 }
-
-printf("\n");
+putchar('\n');
 
 return (0);
 
