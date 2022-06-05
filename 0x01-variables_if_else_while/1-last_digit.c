@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - entry point
- * description: print the last digit of the number stored in the variable
- * return: 0
+ *main - Entry point
+ *last digit of the number stored in the variable
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
