@@ -17,7 +17,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 /* your code goes there */
-last_dig = n % 12;
+last_dig = n % 10;
 
 if (last_dig > 5)
 {
