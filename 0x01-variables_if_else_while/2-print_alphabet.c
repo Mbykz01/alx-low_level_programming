@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- *  main - Entry point
- *  Description: prints the alphabet in lowercase, followed by a new line
- *  return: Always 0 (success)
+ * main - Entry point
+ * Description: prints the alphabet in lowercase, followed by a new line
+ * return: Always 0 (success)
  */
 int main(void)
 {
