@@ -3,13 +3,13 @@
 #include <time.h>
 
 /**
- *main - entry point
- *description: print the last digit of the number stored in the variable
- *return: 0
+ * main - entry point
+ * description: print the last digit of the number stored in the variable
+ * return: 0
  */
 int main(void)
 {
-/* let Last digit of be last_dig */	
+/* let Last digit of be last_dig */
 int n;
 int last_dig;
 
