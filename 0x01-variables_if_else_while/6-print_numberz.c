@@ -8,10 +8,10 @@
 
 int main(void)
 {
-int k;
-for (k = 48; k <= 57; k++)
+int a;
+for (a = 0; a < 10; a++)
 {
-putchar(k);
+putchar(a + '0');
 }
 putchar('\n');
 return (0);
