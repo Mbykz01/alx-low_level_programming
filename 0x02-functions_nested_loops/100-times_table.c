@@ -1,52 +1,52 @@
 #include "main.h"
 
 /**
- * main - check the code for ALX School students.
- * Return: Always 0.
+ * print_times_table - prints the times table for n.
+ * @n: The multiplication table requested.
+ * Return: Nothing.
  */
 
 void print_times_table(int n)
-{
 
-int x, y, z;
-
-if (n >= 0 && n <= 14)
 {
-for (x = 0; x <= n; x++)
+int i, j, res;
+if (!(n > 15 || n < 0))
 {
-for (y = 0; y <= n; y++)
+for (i = 0; i <= n; i++)
 {
-z = x * y;
-if (z > 99)
+for (j = 0; j <= n; j++)
+{
+res = (i * j);
+if (j != 0)
 {
 _putchar(',');
-_putchar(32);
-_putchar((z / 100) + '0');
-_putchar(((z / 10) % 10) + '0');
-_putchar((z % 10) + '0');
+_putchar(' ');
 }
-
-else if (z > 9)
+if (res < 10 && j != 0)
 {
-_putchar(',');
-_putchar(32);
-_putchar(32);
-_putchar(((z / 10) % 10) + '0');
-_putchar((z % 10) + '0');
+_putchar(' ');
+_putchar(' ');
+_putchar((res % 10) + '0');
 }
-
+else if (res >= 10 && res < 100)
+{
+_putchar(' ');
+_putchar((res / 10) + '0');
+_putchar((res % 10) + '0');
+}
+else if (res >= 100 && j != 0)
+{
+_putchar((res / 100) + '0');
+_putchar((res / 10) % 10 + '0');
+_putchar((res % 10) + '0');
+}
 else
-{
-if (y != 0)
-{
-_putchar(',');
-_putchar(32);
-_putchar(32);
-_putchar(32);}
-}
-_putchar(z + '0');
-}
+_putchar((res % 10) + '0');
 }
 _putchar('\n');
+
 }
+
+}
+
 }
