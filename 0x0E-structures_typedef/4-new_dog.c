@@ -37,11 +37,11 @@ char *_copy(char *src)
 }
 
 /**
- * new_dog     - Create a new dog variable
- * @name:        Name of the dog
- * @age:         Age of the dog
- * @owner:       Owner of the dog
- * Return:       Pointer to new dog variable
+ * new_dog-Create a new dog variable
+ * @name:Name of the dog
+ * @age:Age of the dog
+ * @owner:Owner of the dog
+ * Return:Pointer to new dog variable
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
