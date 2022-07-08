@@ -15,13 +15,11 @@ while (format && format[i])
 {j = 0;
 while (t_arg[j])
 {
-if (format[i] == t_arg[j] && c)
-{
+if (format[i] == t_arg[j] && c){
 printf(", ");
 break;
 }j++;
-}switch (format[i])
-{
+}switch (format[i]){
 case 'c':
 printf("%c", va_arg(valist, int)), c = 1;
 break;
@@ -34,12 +32,8 @@ break;
 case 's':
 str = va_arg(valist, char *), c = 1;
 if (!str)
-{
-printf("(nil)");
-break;
-}
+{printf("(nil)");
+break;}
 printf("%s", str);
-break;} i++;
-}
-printf("\n"), va_end(valist);
-}
+break;} i++;}
+printf("\n"), va_end(valist);}
